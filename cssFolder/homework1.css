@@ -1,27 +1,58 @@
-.leftBox {
+.home1_leftBox {
     width:65%;
     height: 400px;
-    background-color: aqua;
-    float:left;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.rightBox {
+.home1_rightBox {
     width:35%;
     height: 400px;
-    background-color: violet;
-    float: left;
+    display: inline-block;
 }
 
-.homeProfile {
-    width:100px;
+.home1_picture {
+    width: 100px;
     height: 100px;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-left: 25px;
+    margin-top:25px; 
+    display:inline-block;
+    vertical-align: top;
 }
 
-.p1 {
-    font-size: 35px;
-    font-weight: 50;
-    margin-left: 15px;
+.home1_mySelf {
+    width:120px;
+    margin-left: 21px;
+    display: inline-block;
+}
 
+.home1_name {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: -17px;
+    color:slategrey
+}
+
+.home1_hour {
+    font-size: 23px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgray;
+}
+
+.home1_p1 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 21px;
+}
+
+.home1_p2 {
+    font-size: 22px;
+    margin-left: 21px;
+    color:gray;
+    margin-right: 15px;
+    
+}
+
+.home1_rightPicture {
+    width:100%;
 }
