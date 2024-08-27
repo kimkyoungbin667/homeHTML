@@ -28,18 +28,11 @@ div {
     font-family: Arial, Helvetica, sans-serif;
     color:#778899;
 }
-
+ 
 .contentArea {
     margin-left:30px;
 }
 
-input[type=email] {
-    font-size: 25px;
-}
-
-input[type=text] {
-    font-size:25px;
-}
-
+input[type=email] 
 
 
